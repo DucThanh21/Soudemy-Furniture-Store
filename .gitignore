@@ -1,0 +1,51 @@
+# Sensitive files - KHÔNG NÊN UP
+config.php
+database.php
+/frontend/config/config.php
+/frontend/config/database.php
+
+# User uploads - files người dùng tải lên
+/uploads/
+/frontend/uploads/
+
+# Logs
+/logs/
+*.log
+/frontend/logs/
+
+# Environment files
+.env
+.env.local
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Vendor/dependencies (nếu dùng Composer)
+/vendor/
+
+# Database dumps
+*.sql
+*.sqlite
+*.db
+
+# Session files
+/tmp/
+/sessions/
+
+# Cache
+/cache/
+*.cache
